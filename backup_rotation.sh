@@ -18,10 +18,10 @@
 TMP_DIR=/tmp
 
 # The directory to be backed up , DO NOT END THE DIRECTORY WITH BACKSLASH !
-SOURCE_DIR=/dir-that-you-want-to-backup
+SOURCE_DIR=/tmp/backup
 
 # The directory where the backups are sent , DO NOT END THE DIRECTORY WITH BACKSLASH !
-TARGET_DIR=/dir-where-backups-are-put
+TARGET_DIR=/tmp/backup-2
 
 # Hostname
 HOST="put-your-hostname-here"
@@ -45,7 +45,7 @@ RETENTION_MONTH=60
 MONTHLY_BACKUP_DATE=1
 
 # Weekly day to backup option (day of week - 1 is monday )
-WEEKLY_BACKUP_DAY=6
+WEEKLY_BACKUP_DAY=1
 
 # -----------------
 # FTP Configuration
